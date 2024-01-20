@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+@layer base {
+  :root {
+    --green-5: 148 100% 97%;
+    --green-10: 153 100% 85%;
+    --green: 154 100% 40%;
+
+    --red-100: 0 100% 57%;
+
+    --blue: 227 100% 57%;
+
+    --blue-500: 228 63% 20%;
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --destructive: 0 100% 89%;
+    --destructive-foreground: 0 100% 57%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 227 100% 57%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 89%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
