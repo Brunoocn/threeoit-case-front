@@ -1,11 +1,7 @@
 "use client";
 
-
+import { OperationsView } from "@/components/operations/operationsView";
 
 export default function Operations() {
-  return (
-    <>
-      <h1>teste</h1>
-    </>
-  )
+  return <OperationsView />;
 }

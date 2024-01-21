@@ -10,6 +10,8 @@ body,
 
 @layer base {
   :root {
+    --gray-5: 0 0% 89%;
+
     --green-5: 148 100% 97%;
     --green-10: 153 100% 85%;
     --green: 154 100% 40%;

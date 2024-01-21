@@ -1,7 +1,6 @@
 "use client";
 import { fetchWrapper } from "@/utils/fetchWrapper";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { setCookie } from "cookies-next";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
