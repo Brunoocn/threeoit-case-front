@@ -17,6 +17,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray: {
+          5: "hsl(var(--gray-5))",
+        },
         red: {
           100: "hsl(var(--red-100))",
         },
@@ -38,7 +41,6 @@ module.exports = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
-      
       },
       borderRadius: {
         lg: "var(--radius)",
